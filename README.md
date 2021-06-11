@@ -41,13 +41,13 @@ The figures below show the exploratory data analysis to understand the trends of
 
 - Most arXiv condensed matter physics papers are posted in the months of March, July, and October.
 
-![fig](images/3a.png)
+![fig](images/fig3a.png)
 
 ## 5. Trends of Posted Papers per Week Day
 
 - Most arXiv condensed matter physics papers are posted on Tuesdays and the least number of papers are posted on weekends.
 
-![fig](images/2a.png)
+![fig](images/fig2a.png)
 
 ## 6. arXiv Papers with Most Authors and Longest Abstract
 
@@ -55,5 +55,5 @@ The figures below show the exploratory data analysis to understand the trends of
 
 - The arXiv paper with longest abstract is [arXiv:1512.08505](https://arxiv.org/abs/1512.08505).
 
-![fig](images/2b.png)
-![fig](images/2c.png)
+![fig](images/fig2b.png)
+![fig](images/fig2c.png)
