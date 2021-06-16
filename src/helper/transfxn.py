@@ -27,6 +27,9 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
+# Dimensionality reduction
+from sklearn.decomposition import PCA
+
 # import custom class
 from helper import log_transfxn as cf 
 
@@ -250,4 +253,41 @@ class TransformationPipeline:
         # Feature names
         feat_nm = num_col + cat_col
         return X_train_scaled, X_test_scaled, feat_nm
+    
+    def pca_plot_labeled(self, data_, labels, palette = None):
+        """
+        Dimensionality reduction of labeled data using PCA 
+
+        Parameters
+        __________
+        data: scaled data
+        labels: labels of the data
+        palette: color list
+
+        Returns
+        __________
+        Matplotlib plot of two component PCA
+        """
+        #PCA
+        pca = PCA(n_components = 2)
+        X_pca = pca.fit_transform(data_)
+
+        # put in dataframe
+        X_reduced_pca = pd.DataFrame(data = X_pca)
+        X_reduced_pca.columns = ['PC1', 'PC2']
+        X_reduced_pca['class'] = labels.reset_index(drop = True)
+
+        # plot results
+        plt.rcParams.update({'font.size': 15})
+        plt.subplots(figsize = (12,8))
+        sns.scatterplot(x = 'PC1', y = 'PC2', data = X_reduced_pca,
+        hue = 'class', palette = palette)
+
+        # axis labels
+        plt.xlabel("Principal component 1")
+        plt.ylabel("Principal component 2")
+        plt.title("Dimensionality reduction")
+        plt.legend(loc = 'best')
+        plt.savefig('../images/pca.png')
+        plt.show()
     
