@@ -20,7 +20,7 @@ The figures below show the exploratory data analysis to understand the trends of
 
 ## 2. Top arXiv Papers with the most Citations
 
-- The top two arXiv papers with the most citations are [cond-mat/0410550](https://arxiv.org/abs/cond-mat/0410550) and [arXiv:709.1163](https://arxiv.org/abs/709.1163).
+- The top two arXiv papers with the most citations are [cond-mat/0410550](https://arxiv.org/abs/cond-mat/0410550) and [arXiv:0709.1163](https://arxiv.org/abs/0709.1163).
 
 ![fig](images/fig5d.png)
 
