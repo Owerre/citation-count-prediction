@@ -1,7 +1,7 @@
 # Prediction of Citation Counts in arXiv Papers
 This project contains an exposition of arXiv condensed matter physics papers from 1992 - 2020. The dataset is obtained by scraping the [arXiv.org](https://arxiv.org) web page, and the citation counts for the papers were obtained in June, 2021 from the [ADS](https://ui.adsabs.harvard.edu) web page. 
 
-The main objective of this project is to predict the citation counts of arXiv papers within a certain time frame. The predictive modeling can be cast as either a regression or classification problem; we have implemented both scenarios;
+The main objective of this project is to predict the citation counts of arXiv papers within a certain time frame. The predictive modeling can be cast as either a regression or classification problem; we have implemented both scenarios.
 
 ## Data Exploration
 
