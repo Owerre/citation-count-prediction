@@ -154,7 +154,7 @@ class RegressionModels:
         ax2.plot([-0.3, 9], [-0.3, 9], color='k')
         ax2.set_xlim([-0.3, 9])
         ax2.set_ylim([-0.3, 9])
-        ax2.text(2, 12, r'$R^2 = {},~ RMSE = {}$'.format(str(r2), str(rm)), fontsize=20)
+        ax2.text(2, 7, r'$R^2 = {},~ RMSE = {}$'.format(str(r2), str(rm)), fontsize=20)
         ax2.set_xlabel('Predicted values')
         ax2.set_ylabel('True values')
         ax2.set_title('True values vs. Predicted values')
