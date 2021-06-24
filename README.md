@@ -15,20 +15,20 @@ The figures below show the exploratory data analysis to understand the trends of
  
  - The most recent papers attract few citations than those published 10-13 years ago.
 
-![fig](images/fig5a.png)
-![fig](images/fig5c.png)
+![fig](citation_prediction/images/fig5a.png)
+![fig](citation_prediction/images/fig5c.png)
 
 ## 2. Top arXiv Papers with the most Citations
 
 - The top two arXiv papers with the most citations are [cond-mat/0410550](https://arxiv.org/abs/cond-mat/0410550) and [arXiv:0709.1163](https://arxiv.org/abs/0709.1163).
 
-![fig](images/fig5d.png)
+![fig](citation_prediction/images/fig5d.png)
 
 ## 3. Most Common Words Used in Abstracts
 
 - Condensed matter physicists are mostly interested in models, states, and quantum phases of systems.
 
-![fig](images/fig1a.png)
+![fig](citation_prediction/images/fig1a.png)
 
 ## 4. Trends of Posted Papers per Year
 
@@ -39,21 +39,21 @@ The figures below show the exploratory data analysis to understand the trends of
 - The median length of abstract seems to be increasing by year.
 
 
-![fig](images/fig4c.png)
-![fig](images/fig4b.png)
-![fig](images/fig4e.png)
+![fig](citation_prediction/images/fig4c.png)
+![fig](citation_prediction/images/fig4b.png)
+![fig](citation_prediction/images/fig4e.png)
 
 ## 5. Trends of Posted Papers per Month
 
 - Most arXiv condensed matter physics papers are posted in the months of March, July, and October.
 
-![fig](images/fig3a.png)
+![fig](citation_prediction/images/fig3a.png)
 
 ## 6. Trends of Posted Papers per Week Day
 
 - Most arXiv condensed matter physics papers are posted on Tuesdays and the least number of papers are posted on weekends.
 
-![fig](images/fig2a.png)
+![fig](citation_prediction/images/fig2a.png)
 
 ## 7. arXiv Papers with Most Authors and Longest Abstract
 
@@ -61,5 +61,5 @@ The figures below show the exploratory data analysis to understand the trends of
 
 - The arXiv paper with longest abstract is [arXiv:1512.08505](https://arxiv.org/abs/1512.08505).
 
-![fig](images/fig2b.png)
-![fig](images/fig2c.png)
+![fig](citation_prediction/images/fig2b.png)
+![fig](citation_prediction/images/fig2c.png)
