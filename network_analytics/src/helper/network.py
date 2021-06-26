@@ -161,7 +161,7 @@ class Network:
         print("Modularity:", round(net_mod,4))
         print("Communities:", len(set(partitions.values())))
         print("Isolates Nodes:", len(list(nx.isolates(G))))
-        print('-' * 75)
+        print('-' * 35)
         print(nx.info(G))
 
     def binet_info(self, G, nodeset1 = None, nodeset2 = None):
