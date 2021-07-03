@@ -1,3 +1,9 @@
+####################################
+# Author: S. A. Owerre
+# Date modified: 09/06/2021
+# Class: Web scraping
+####################################
+
 # Filter warnings
 import warnings
 warnings.filterwarnings("ignore")
